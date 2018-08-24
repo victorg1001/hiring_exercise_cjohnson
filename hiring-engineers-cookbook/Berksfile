@@ -1,0 +1,10 @@
+# frozen_string_literal: true
+source 'https://supermarket.chef.io'
+
+cookbook 'datadog', '~> 2.16.1'
+cookbook 'mysql', '~> 8.5.1'
+cookbook 'mysql2_chef_gem', '~> 2.1.0'
+cookbook 'database', '~> 6.1.1'
+cookbook 'poise-python', '~> 1.7.0'
+
+metadata
